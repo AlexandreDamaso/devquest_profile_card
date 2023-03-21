@@ -24,10 +24,47 @@ main {
 .profile-card {
     width: 330px;
     background-color: var(--background-color-card);
+    border-radius: 15px;
 }
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #CCCCCC;
+}
+.perfil img {
+    width: 100px;
+    border-radius: 50%;
+}
+.perfil img,
+.perfil .pais,
+.rede-social .info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.rede-social {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.rede-social .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.click,
 .nome {
     font-weight: var(--font-weight-bold);
+    font-size: 18px;
+}
+.ref-click,
+.pais {
+    font-weight: var(--font-weight-regular);
+    font-size: 18px;
+    color: var(--text-color);
 }
 .idade {
-    font-weight: var(--font-weight-regular);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-color);
 }
