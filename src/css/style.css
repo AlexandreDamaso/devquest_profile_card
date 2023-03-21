@@ -1,0 +1,33 @@
+:root {
+    --fonte-family-kumbh-sans: 'Kumbh Sans', sans-serif;
+    --background-color-body: #19a2ae;
+    --background-color-card: #FFFFFF;
+    --text-color: #6a6f81;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-family-kumbh-sans);
+}
+body {
+    background-color: var(--background-color-body);
+}
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-card {
+    width: 330px;
+    background-color: var(--background-color-card);
+}
+.nome {
+    font-weight: var(--font-weight-bold);
+}
+.idade {
+    font-weight: var(--font-weight-regular);
+}
